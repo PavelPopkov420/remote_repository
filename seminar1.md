@@ -49,3 +49,8 @@ git checkout <branch name>
 
 git branch <branch name>
 ```
+## Переход с ветки на ветку 
+Для перехода с ветки на ветку введите команду
+```
+git checkout <branch name>
+```
