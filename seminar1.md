@@ -52,6 +52,26 @@ git branch <branch name>
 ## Переход с ветки на ветку 
 ```
 Для перехода с ветки на ветку введите команду
-
+```
 git checkout <branch name>
+```
+## Работа с удаленным репозиторием
+
+Для работы с удаленным репозиторием есть 3 алгоритка работ
+
+* Первый способ с новым репозиторием нужно ввести команды
+```
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PavelPopkov420/remote_repository.git
+git push -u origin main
+```
+
+* Второй способ с имеющимся репозиторием ну жно ввести команды 
+```
+git remote add origin https://github.com/PavelPopkov420/remote_repository.git
+git branch -M main
+git push -u origin main
 ```
